@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 54" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="nx-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e8ecf2"/>
+      <stop offset="100%" stop-color="#9aa4b2"/>
+    </linearGradient>
+    <linearGradient id="nx-blue-top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7ee8ff"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="nx-x-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="nx-cube-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- NEXOR -->
+  <text x="0" y="31" font-family="Rubik, Arial, sans-serif" font-weight="800" font-size="28" fill="url(#nx-metal)" letter-spacing="0.04em">NEXOR</text>
+
+  <!-- X accent glow -->
+  <circle cx="62" cy="17" r="3.2" fill="#5ee7ff" opacity="0.95" filter="url(#nx-x-glow)"/>
+
+  <!-- Chevron A -->
+  <path d="M138 31 L148.5 5 L159 31 Z" fill="url(#nx-metal)"/>
+
+  <!-- LABS -->
+  <line x1="52" y1="44" x2="68" y2="44" stroke="#5ee7ff" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+  <text x="88" y="47" text-anchor="middle" font-family="Rubik, Arial, sans-serif" font-weight="500" font-size="9.5" fill="#c8d0dc" letter-spacing="0.38em">LABS</text>
+  <line x1="108" y1="44" x2="124" y2="44" stroke="#5ee7ff" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Isometric cube -->
+  <g transform="translate(172, 2)" filter="url(#nx-cube-glow)">
+    <polygon points="20,10 36,19 20,28 4,19" fill="url(#nx-blue-top)"/>
+    <polygon points="4,19 20,28 20,42 4,33" fill="#1e3a8a"/>
+    <polygon points="20,28 36,19 36,33 20,42" fill="#eef2f7"/>
+    <polygon points="20,10 36,19 36,33 20,42 4,33 4,19" fill="none" stroke="#5ee7ff" stroke-width="0.6" opacity="0.45"/>
+  </g>
+</svg>

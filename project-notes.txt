@@ -1,0 +1,9 @@
+GitHub repository URL:
+https://github.com/nexora102030/nexora-labs.git
+
+Important deployment links:
+Local preview: http://localhost:8770
+Production deployment: Not connected yet
+
+Future Vercel URL when available:
+TBD
