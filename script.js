@@ -10,7 +10,7 @@ function openWhatsApp(message) {
 }
 
 function defaultMessage() {
-  return 'שלום Nexora Labs הגעתי דרך האתר ואני רוצה לשמוע פרטים';
+  return 'שלום Mirox Labs הגעתי דרך האתר ואני רוצה לשמוע פרטים';
 }
 
 /* ─── WhatsApp links ─── */
@@ -220,7 +220,7 @@ form?.addEventListener('submit', (e) => {
   const details = document.getElementById('details')?.value.trim() || '';
 
   const msg = [
-    'שלום Nexora Labs',
+    'שלום Mirox Labs',
     'יש לי עניין בשירות שלכם',
     '',
     `שם: ${name}`,
